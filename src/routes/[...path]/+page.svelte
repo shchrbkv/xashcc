@@ -26,7 +26,7 @@
    .content {
       padding: 10%;
       font-size: 1.2rem;
-      font-variation-settings: 'wght' 530;
+      font-variation-settings: 'wght' 550;
       line-height: 1.5rem;
       max-width: 30rem;
       min-width: 18.5rem;
