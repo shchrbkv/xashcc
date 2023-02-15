@@ -4,7 +4,7 @@
 
 <img src="{Bars}" alt="Color Bars">
 <div class="content">
-   <h1 class="funky">RENOVATION!</h1>
+   <h1>RENOVATION!</h1>
    <div class="blocks">
       <p>Due to unexpected regional restrictions, this web experience is being moved to a more reliable provider.</p>
       <p>Available globally on Friday, Feb 17.</p>
