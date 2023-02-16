@@ -60,7 +60,7 @@
    }
 
    @media only screen and (max-width: 30em) {
-      a {
+      .links a {
          margin-right: 1rem;
       }
    }
