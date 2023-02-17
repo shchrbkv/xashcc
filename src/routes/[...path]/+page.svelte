@@ -7,7 +7,7 @@
    <h1>RENOVATION!</h1>
    <div class="blocks">
       <p>Due to unexpected regional restrictions, this web experience is being moved to a more reliable provider.</p>
-      <p>Available globally on Friday, Feb 17.</p>
+      <p>Available globally, Feb 20.</p>
       <div class="links">
          <a href="/docs/motivation">Motivation ↗</a>
          <a href="/docs/CV-shcherbakov-aleksandr.pdf" data-sveltekit-reload>Curriculum Vitae ↗</a>
