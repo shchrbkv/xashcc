@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+	font-family: 'Neue Montreal';
+	src: url('/fonts/NeueMontreal.woff2');
+	font-style: normal;
+	font-weight: 200 800;
+}
+
+@font-face {
+	font-family: 'Right Grotesk Tight';
+	src: url('/fonts/RightGroteskTight.woff2');
+	font-weight: 100 900;
+}
+
+@layer base {
+	html {
+		font-variation-settings: 'wght' 550;
+		-webkit-font-smoothing: antialiased;
+		-moz-osx-font-smoothing: grayscale;
+	}
+}

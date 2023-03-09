@@ -1,6 +1,5 @@
 <script>
-   import "$lib/reset.css"
-   import "$lib/styles.css"
+	import '$lib/app.css';
 </script>
 
-<slot/>
+<slot />

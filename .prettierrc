@@ -7,7 +7,7 @@
 	"printWidth": 120,
 	"quoteProps": "preserve",
 	"plugins": [
-		"prettier-plugin-svelte"
+		"prettier-plugin-tailwindcss"
 	],
 	"pluginSearchDirs": [
 		"."
