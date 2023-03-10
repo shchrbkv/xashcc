@@ -3,59 +3,25 @@
 </script>
 
 <img class="w-full h-[30vh] object-cover object-bottom" src={Bars} alt="Color Bars" />
-<div class="content">
-	<h1>RENOVATION!</h1>
-	<div class="blocks">
-		<p>Due to unexpected regional restrictions, this web experience is being moved to a EU-based provider.</p>
-		<p>Come back on Friday, March 10.</p>
-		<div class="links">
-			<a href="/docs/motivation">Motivation ↗</a>
-			<a href="/docs/CV-shcherbakov-aleksandr.pdf" data-sveltekit-reload>Curriculum Vitae ↗</a>
+<div class="p-[10%] leading-[1.5rem] min-w-[18.5rem] max-w-lg box-content">
+	<h1 class="font-display mb-12 leading-[4.5rem] text-[5.75rem]">RENOVATION!</h1>
+	<div class="text-base">
+		<p class="mb-6">
+			Due to unexpected regional restrictions with complete data loss, this web experience is being moved to a
+			EU-based provider.
+		</p>
+		<div class="mt-12 pt-6 border-solid border-t border-white flex">
+			<a class="mr-4 md:mr-6 transition hover:-translate-y-0.5" href="/docs/motivation">Motivation ↗</a>
+			<a
+				class="mr-4 md:mr-6 transition hover:-translate-y-0.5"
+				href="/docs/CV-shcherbakov-aleksandr.pdf"
+				data-sveltekit-reload>Curriculum Vitae ↗</a
+			>
 		</div>
 	</div>
-	<footer>Got questions? Try <a href="mailto:self@xash.cc">self@xash.cc</a></footer>
+	<footer class="mt-6 text-sm text-stone-500">
+		Got questions? Try <a class="inline-block transition hover:-translate-y-0.5" href="mailto:self@xash.cc"
+			>self@xash.cc</a
+		>
+	</footer>
 </div>
-
-<style>
-	.content {
-		padding: 10%;
-		font-size: 1.2rem;
-		font-variation-settings: 'wght' 550;
-		line-height: 1.5rem;
-		max-width: 30rem;
-		min-width: 18.5rem;
-	}
-	h1 {
-		font-family: 'Right Grotesk Tight';
-		font-variation-settings: 'wght' 550;
-		font-size: 5.75rem;
-		line-height: 4.5rem;
-		margin-bottom: 3rem;
-	}
-	p {
-		margin-bottom: 1.5rem;
-	}
-
-	.links {
-		display: flex;
-		margin-top: 3rem;
-		padding-top: 1.5rem;
-		border-top: white solid thin;
-	}
-
-	.links a {
-		margin-right: 1.5rem;
-	}
-
-	footer {
-		margin-top: 1.5rem;
-		font-size: 1rem;
-		color: #8b8b86;
-	}
-
-	@media only screen and (max-width: 30em) {
-		.links a {
-			margin-right: 1rem;
-		}
-	}
-</style>

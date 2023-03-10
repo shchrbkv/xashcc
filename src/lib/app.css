@@ -17,8 +17,15 @@
 
 @layer base {
 	html {
+		@apply font-sans bg-dark text-white;
 		font-variation-settings: 'wght' 550;
 		-webkit-font-smoothing: antialiased;
 		-moz-osx-font-smoothing: grayscale;
+	}
+}
+
+@layer utilities {
+	.font-normal {
+		font-variation-settings: 'wght' 550;
 	}
 }
